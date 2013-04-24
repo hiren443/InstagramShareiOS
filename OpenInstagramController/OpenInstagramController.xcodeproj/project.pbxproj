@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4800791727FB0E0073A130 /* TPInstaShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4800771727FB0E0073A130 /* TPInstaShareController.m */; };
+		1E48007A1727FB0E0073A130 /* TPInstaShareController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E4800781727FB0E0073A130 /* TPInstaShareController.xib */; };
+		1E83D40D1727F89E004A6C41 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E83D40C1727F89E004A6C41 /* test.png */; };
+		1E83D5371727F8D1004A6C41 /* test.ig in Resources */ = {isa = PBXBuildFile; fileRef = 1E83D5361727F8D1004A6C41 /* test.ig */; };
+		1E8D6F9915AEA6EA0009A5C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D6F9815AEA6EA0009A5C9 /* UIKit.framework */; };
+		1E8D6F9B15AEA6EA0009A5C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D6F9A15AEA6EA0009A5C9 /* Foundation.framework */; };
+		1E8D6F9D15AEA6EA0009A5C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D6F9C15AEA6EA0009A5C9 /* CoreGraphics.framework */; };
+		1E8D6FA315AEA6EA0009A5C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D6FA115AEA6EA0009A5C9 /* InfoPlist.strings */; };
+		1E8D6FA515AEA6EA0009A5C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D6FA415AEA6EA0009A5C9 /* main.m */; };
+		1E8D6FA915AEA6EA0009A5C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D6FA815AEA6EA0009A5C9 /* AppDelegate.m */; };
+		1E8D6FBA15AEAF000009A5C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D6FB915AEAF000009A5C9 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E4800761727FB0E0073A130 /* TPInstaShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPInstaShareController.h; sourceTree = "<group>"; };
+		1E4800771727FB0E0073A130 /* TPInstaShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPInstaShareController.m; sourceTree = "<group>"; };
+		1E4800781727FB0E0073A130 /* TPInstaShareController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPInstaShareController.xib; sourceTree = "<group>"; };
+		1E83D40C1727F89E004A6C41 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		1E83D5361727F8D1004A6C41 /* test.ig */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.ig; sourceTree = "<group>"; };
+		1E8D6F9415AEA6EA0009A5C9 /* OpenInstagramController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInstagramController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8D6F9815AEA6EA0009A5C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E8D6F9A15AEA6EA0009A5C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E8D6F9C15AEA6EA0009A5C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E8D6FA015AEA6EA0009A5C9 /* OpenInstagramController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenInstagramController-Info.plist"; sourceTree = "<group>"; };
+		1E8D6FA215AEA6EA0009A5C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E8D6FA415AEA6EA0009A5C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E8D6FA615AEA6EA0009A5C9 /* OpenInstagramController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenInstagramController-Prefix.pch"; sourceTree = "<group>"; };
+		1E8D6FA715AEA6EA0009A5C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E8D6FA815AEA6EA0009A5C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E8D6FB915AEAF000009A5C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8D6F9115AEA6EA0009A5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D6FBA15AEAF000009A5C9 /* CoreLocation.framework in Frameworks */,
+				1E8D6F9915AEA6EA0009A5C9 /* UIKit.framework in Frameworks */,
+				1E8D6F9B15AEA6EA0009A5C9 /* Foundation.framework in Frameworks */,
+				1E8D6F9D15AEA6EA0009A5C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8D6F8915AEA6EA0009A5C9 = {
+			isa = PBXGroup;
+			children = (
+				1E8D6FB915AEAF000009A5C9 /* CoreLocation.framework */,
+				1E8D6F9E15AEA6EA0009A5C9 /* OpenInstagramController */,
+				1E8D6F9715AEA6EA0009A5C9 /* Frameworks */,
+				1E8D6F9515AEA6EA0009A5C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8D6F9515AEA6EA0009A5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D6F9415AEA6EA0009A5C9 /* OpenInstagramController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8D6F9715AEA6EA0009A5C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E83D5361727F8D1004A6C41 /* test.ig */,
+				1E83D40C1727F89E004A6C41 /* test.png */,
+				1E8D6F9815AEA6EA0009A5C9 /* UIKit.framework */,
+				1E8D6F9A15AEA6EA0009A5C9 /* Foundation.framework */,
+				1E8D6F9C15AEA6EA0009A5C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E8D6F9E15AEA6EA0009A5C9 /* OpenInstagramController */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D6FA715AEA6EA0009A5C9 /* AppDelegate.h */,
+				1E8D6FA815AEA6EA0009A5C9 /* AppDelegate.m */,
+				1E8D6F9F15AEA6EA0009A5C9 /* Supporting Files */,
+				1E4800761727FB0E0073A130 /* TPInstaShareController.h */,
+				1E4800771727FB0E0073A130 /* TPInstaShareController.m */,
+				1E4800781727FB0E0073A130 /* TPInstaShareController.xib */,
+			);
+			path = OpenInstagramController;
+			sourceTree = "<group>";
+		};
+		1E8D6F9F15AEA6EA0009A5C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D6FA015AEA6EA0009A5C9 /* OpenInstagramController-Info.plist */,
+				1E8D6FA115AEA6EA0009A5C9 /* InfoPlist.strings */,
+				1E8D6FA415AEA6EA0009A5C9 /* main.m */,
+				1E8D6FA615AEA6EA0009A5C9 /* OpenInstagramController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8D6F9315AEA6EA0009A5C9 /* OpenInstagramController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8D6FB215AEA6EA0009A5C9 /* Build configuration list for PBXNativeTarget "OpenInstagramController" */;
+			buildPhases = (
+				1E8D6F9015AEA6EA0009A5C9 /* Sources */,
+				1E8D6F9115AEA6EA0009A5C9 /* Frameworks */,
+				1E8D6F9215AEA6EA0009A5C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenInstagramController;
+			productName = OpenInstagramController;
+			productReference = 1E8D6F9415AEA6EA0009A5C9 /* OpenInstagramController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E8D6F8B15AEA6EA0009A5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1E8D6F8E15AEA6EA0009A5C9 /* Build configuration list for PBXProject "OpenInstagramController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E8D6F8915AEA6EA0009A5C9;
+			productRefGroup = 1E8D6F9515AEA6EA0009A5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8D6F9315AEA6EA0009A5C9 /* OpenInstagramController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8D6F9215AEA6EA0009A5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D6FA315AEA6EA0009A5C9 /* InfoPlist.strings in Resources */,
+				1E83D40D1727F89E004A6C41 /* test.png in Resources */,
+				1E83D5371727F8D1004A6C41 /* test.ig in Resources */,
+				1E48007A1727FB0E0073A130 /* TPInstaShareController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8D6F9015AEA6EA0009A5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D6FA515AEA6EA0009A5C9 /* main.m in Sources */,
+				1E8D6FA915AEA6EA0009A5C9 /* AppDelegate.m in Sources */,
+				1E4800791727FB0E0073A130 /* TPInstaShareController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E8D6FA115AEA6EA0009A5C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8D6FA215AEA6EA0009A5C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E8D6FB015AEA6EA0009A5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E8D6FB115AEA6EA0009A5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E8D6FB315AEA6EA0009A5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenInstagramController/OpenInstagramController-Prefix.pch";
+				INFOPLIST_FILE = "OpenInstagramController/OpenInstagramController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3D6ED39F-BD14-4057-9D9A-C9A944289CBD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3D6ED39F-BD14-4057-9D9A-C9A944289CBD";
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E8D6FB415AEA6EA0009A5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenInstagramController/OpenInstagramController-Prefix.pch";
+				INFOPLIST_FILE = "OpenInstagramController/OpenInstagramController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3D6ED39F-BD14-4057-9D9A-C9A944289CBD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3D6ED39F-BD14-4057-9D9A-C9A944289CBD";
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8D6F8E15AEA6EA0009A5C9 /* Build configuration list for PBXProject "OpenInstagramController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8D6FB015AEA6EA0009A5C9 /* Debug */,
+				1E8D6FB115AEA6EA0009A5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8D6FB215AEA6EA0009A5C9 /* Build configuration list for PBXNativeTarget "OpenInstagramController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8D6FB315AEA6EA0009A5C9 /* Debug */,
+				1E8D6FB415AEA6EA0009A5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E8D6F8B15AEA6EA0009A5C9 /* Project object */;
+}
